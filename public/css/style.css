@@ -122,17 +122,19 @@ main {
         padding-bottom: 10px;
         }
         
-    h4 {
-        display: none;
+    .descripcion {
         font-size: 16px;
         padding-top: 2vh;
         color: #666666;
         text-align: left;
+        display:flex;
         transition: all 0.5s;
             }
 
-    h4:hover {
-        display:flex;
+    .descripcion:hover {
+        padding-bottom: 40px;
+        font-weight: bold;
+        font-size: 20px;
     }
     
         
@@ -335,4 +337,8 @@ h2 {
             margin-bottom: 20px;
             padding: 10px;
         }
+}
+
+.descuento {
+    padding-right: 30px;
 }
