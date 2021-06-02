@@ -171,6 +171,10 @@ footer {
         .fa-user-shield:hover {
             color: #EAC926 ;
             font-size: 4em; }
+
+        .footer-titulo {
+            font-size: 20px;
+        }
         
     
         
@@ -189,7 +193,7 @@ footer {
         font-style: normal;
         font-weight: bold;
         display: block;
-        border: 1px dotted gray;
+        border: none;
         border-radius: 2px;
         margin-bottom: 10px;
         width: 55vw;
@@ -286,6 +290,21 @@ h2 {
         width: 290px;
     }
 }
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    .copyright{
+        display: block;
+        padding: 0 10% 0 10%;
+    }
+    .footer-section {
+        flex-grow: 0.3;
+        width: 240px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
 
 @media (min-width: 1200px){
     .main-header-top-bar, .main-navbar {
